@@ -14,7 +14,12 @@ title: Publications
           <h3  class="publication-title">{{publication.title}}</h3>
         {% endif %}
         <p>
-          {{ publication.authors }} <br>
+          {% if publication.alpha-beta == true %}
+            (&alpha;-&beta;) {{ publication.authors }}
+          {% else %}
+            {{ publication.authors }}
+          {% endif %}
+          <br>
           {{ publication.conference }}
         </p>
       </article>
