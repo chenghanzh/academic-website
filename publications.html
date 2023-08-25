@@ -1,0 +1,22 @@
+<!-- ---
+layout: page
+title: Publications
+--- -->
+
+<ul class="list-publications">
+  {% assign sorted = site.publications | sort: 'sort-key' | reverse %}
+    {% for publication in sorted%}
+      <!TODO: format each publication entry>
+      <article class="module">
+        {% if publication.link %}
+          <h3  class="publication-title">{{publication.title}} <a href={{publication.link}}>[{{publication.link-type}}]</a></h3>
+        {% else %}
+          <h3  class="publication-title">{{publication.title}}</h3>
+        {% endif %}
+        <p>
+          {{ publication.authors }} <br>
+          {{ publication.conference }}
+        </p>
+      </article>
+    {% endfor %}
+</ul>

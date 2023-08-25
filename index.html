@@ -1,0 +1,33 @@
+---
+layout: page
+subtitle: Hitchhiker's guid to web development
+title: Index
+sitemap:
+  priority: 0.9
+---
+
+
+{% for page in site.pages %}
+  {% if page.title contains "About" %}
+    <h2 id="about">{{page.title}}</h2>
+    <div class="profile-img">
+      <img src="{{ '/assets/images/profile.png' | prepend: site.baseurl }}"
+        alt="">
+    </div>
+    <p class="bio-content">{{page.content}}</p>
+  {% endif %}
+{% endfor %}
+
+<br>
+
+<h2 id="publications">Publications</h2>
+{% include_relative publications.html %}
+<br>
+
+<h2 id="teaching">Teaching</h2>
+{% include_relative teachings.html %}
+<br>
+
+<h2 id="miscs"></h2>
+{% include_relative miscs.html %}
+<br>

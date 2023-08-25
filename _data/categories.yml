@@ -1,0 +1,11 @@
+- slug: home
+  name: Home
+
+- slug: publications
+  name: Publications
+
+- slug: teaching
+  name: Teaching
+
+- slug: miscs
+  name: Miscs

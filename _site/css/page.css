@@ -1,0 +1,39 @@
+/* h3 {
+  font-size: 18px;
+  margin-block-end: 5px
+} */
+
+p {
+  font-size: 17px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.navigation {
+  margin-block-end: 1em
+}
+
+.teaching-title {
+  font-size: 17px;
+  margin-block-end: 3px;
+}
+
+.publication-title {
+  font-size: 18px;
+  margin-block-end: 5px;
+}
+
+.misc-title {
+  margin-block-end: 5px;
+}
+
+.profile-img {
+  width: 220px;
+  float: right;
+  /* margin-top: 40px; */
+  margin: 10px;
+}
+
+.bio-content{
+  text-align: justify;
+}

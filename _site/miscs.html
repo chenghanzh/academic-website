@@ -1,0 +1,13 @@
+<!-- ---
+layout: page
+title: Miscs
+--- -->
+
+{% assign sorted = site.miscs | sort: 'sort-key' %}
+
+{% for misc in sorted %}
+  <h2 class="misc-title">  {{misc.title}}</h2>
+  <ul>
+  {{misc.content}}
+  </ul>
+{% endfor %}

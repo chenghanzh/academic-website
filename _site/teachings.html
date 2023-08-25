@@ -1,0 +1,21 @@
+<!-- ---
+layout: page
+title: Teachings
+--- -->
+
+<ul class="list-teaching">
+    {% assign sorted = site.teachings | sort: 'sort-key' | reverse %}
+    {% for teaching in sorted %}
+      <!TODO: format each publication entry>
+      <article class="module">
+        {% if teaching.link %}
+          <h3 class="teaching-title"><a href={{teaching.link}}>{{teaching.title}}</a>, {{teaching.institution}}, {{teaching.year}}</h3>
+        {% else %}
+          <h3 class="teaching-title">{{teaching.title}}, {{teaching.institution}}, {{teaching.year}}</h3>
+        {% endif %}
+        <p>
+          {{ teaching.position }}
+        </p>
+      </article>
+    {% endfor %}
+</ul>

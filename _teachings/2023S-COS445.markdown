@@ -1,0 +1,9 @@
+---
+layout: post
+title:  COS 445 - Economics and Computation
+institution: Princeton University
+year: 2023 Spring
+sort-key: 2023-1
+position: Teaching Assistant & Preceptor
+link: https://www.cs.princeton.edu/~pparedes/teaching/spring23/cos445/
+---
