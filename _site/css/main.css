@@ -28,7 +28,7 @@ blockquote p:after { content: " ”"; }
 strong { color: #333333; }
 
 /* =Header */
-.wrapper { max-width: 800px; margin: 100px auto; }
+.wrapper { max-width: 800px; margin: 50px auto; }
 
 .header { overflow: hidden; }
 

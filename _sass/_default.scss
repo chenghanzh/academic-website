@@ -7,9 +7,6 @@ body {
 
 a {
     color: black;
-    // color: #b43757;
-    // color: $cloudy;
-    // font-weight: bold;
     text-decoration: underline dotted;
 
     &:hover {
@@ -68,7 +65,7 @@ strong {
 /* =Header */
 .wrapper {
     max-width: 800px;
-    margin: 100px auto;
+    margin: 50px auto;
 }
 
 .header {
