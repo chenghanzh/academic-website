@@ -1,2 +1,1 @@
-Chenghan Zhou's academic personal website
-chenghanzh.com
+Chenghan Zhou's academic personal [website](https://chenghanzh.com)
