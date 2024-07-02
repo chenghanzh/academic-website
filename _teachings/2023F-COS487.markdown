@@ -1,0 +1,8 @@
+---
+layout: post
+title:  COS 487 / MAT 407 Theory of Computation
+institution: Princeton University
+year: 2023 Fall
+sort-key: 2023-2
+position: Teaching Assistant
+---
