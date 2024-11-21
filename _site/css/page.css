@@ -32,7 +32,11 @@ p {
   float: right;
   /* margin-top: 40px; */
   margin: 10px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
+}
+
+img {
+  border-radius: 10%;
 }
 
 .bio-content{
