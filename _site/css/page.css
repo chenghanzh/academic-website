@@ -35,9 +35,9 @@ p {
   /* border-radius: 50%; */
 }
 
-/* img {
-  border-radius: 10%;
-} */
+img {
+  border-radius: 10% !important;
+}
 
 /* img.round-corner-img {
   border-radius: 20px;
