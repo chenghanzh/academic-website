@@ -39,6 +39,10 @@ img {
   border-radius: 10%;
 }
 
+.round-corner-img {
+  border-radius: 20px;
+}
+
 .bio-content{
   text-align: justify;
 }
