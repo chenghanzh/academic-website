@@ -34,6 +34,10 @@ p {
   margin: 10px;
 }
 
+img.round-corner-img {
+  border-radius: 20px;
+}
+
 .bio-content{
   text-align: justify;
 }
