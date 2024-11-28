@@ -39,7 +39,7 @@ p {
   border-radius: 10% !important;
 } */
 
-img.round-corner-img {
+.profile-img img.round-corner-img {
   border-radius: 20px;
 }
 

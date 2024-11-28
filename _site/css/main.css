@@ -9,7 +9,7 @@ a:hover { color: #828282; }
 
 p { font-size: 20px; line-height: 32px; margin-block: 2px 4px; }
 
-img { display: block; max-width: 100%; }
+/* img { display: block; max-width: 100%; } */
 
 /* img.round-corner-img {
   border-radius: 20px;
