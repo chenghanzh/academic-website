@@ -3,16 +3,16 @@ layout: page
 title: Publications
 --- -->
 
-<section class="publication-section" aria-labelledby="manuscripts-heading">
-  <h3 id="manuscripts-heading" class="publication-section-title">Manuscripts</h3>
+<section aria-labelledby="manuscripts-heading">
+  <h2 id="manuscripts-heading">Manuscripts</h2>
   <ul class="list-publications">
     {% assign sorted_manuscripts = site.manuscripts | sort: 'sort-key' | reverse %}
       {% for manuscript in sorted_manuscripts %}
         <article class="module">
           {% if manuscript.link %}
-            <h4 class="publication-title">{{ manuscript.title }} <a href="{{ manuscript.link }}">[{{ manuscript.link-type }}]</a></h4>
+            <h3 class="publication-title">{{ manuscript.title }} <a href="{{ manuscript.link }}">[{{ manuscript.link-type }}]</a></h3>
           {% else %}
-            <h4 class="publication-title">{{ manuscript.title }}</h4>
+            <h3 class="publication-title">{{ manuscript.title }}</h3>
           {% endif %}
           <p>
             {% if manuscript.alpha-beta == true %}
@@ -30,16 +30,18 @@ title: Publications
   </ul>
 </section>
 
-<section class="publication-section" aria-labelledby="published-papers-heading">
-  <h3 id="published-papers-heading" class="publication-section-title">Published Papers</h3>
+<br>
+
+<section aria-labelledby="published-publications-heading">
+  <h2 id="published-publications-heading">Publications</h2>
   <ul class="list-publications">
     {% assign sorted_publications = site.publications | sort: 'sort-key' | reverse %}
       {% for publication in sorted_publications %}
         <article class="module">
           {% if publication.link %}
-            <h4 class="publication-title">{{ publication.title }} <a href="{{ publication.link }}">[{{ publication.link-type }}]</a></h4>
+            <h3 class="publication-title">{{ publication.title }} <a href="{{ publication.link }}">[{{ publication.link-type }}]</a></h3>
           {% else %}
-            <h4 class="publication-title">{{ publication.title }}</h4>
+            <h3 class="publication-title">{{ publication.title }}</h3>
           {% endif %}
           <p>
             {% if publication.alpha-beta == true %}
