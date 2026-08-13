@@ -23,6 +23,8 @@ highlighter: null
 markdown: kramdown
 
 collections:
+  manuscripts:
+    output: true
   publications:
     output: true
   teachings:

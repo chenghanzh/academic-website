@@ -23,6 +23,15 @@ p {
   margin-block-end: 5px;
 }
 
+.publication-section-title {
+  font-size: 20px;
+  margin-block: 20px 10px;
+}
+
+.publication-section:first-of-type .publication-section-title {
+  margin-block-start: 0;
+}
+
 .misc-title {
   margin-block-end: 5px;
 }
